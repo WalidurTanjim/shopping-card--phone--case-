@@ -16,7 +16,7 @@ function decreaseProduct(elementId){
      const elementPreviousValue = parseInt(elementValueString);
 
      const elementValueDecrease = elementPreviousValue - 1;
-     if(elementValueDecrease === 0){
+     if(elementValueDecrease === -1){
           alert("You can't decrease more");
      }else{
           const elementValue = element.value = elementValueDecrease;
