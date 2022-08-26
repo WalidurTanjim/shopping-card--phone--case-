@@ -1,0 +1,33 @@
+*{
+     margin: 0;
+     padding: 0;
+     user-select: none;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+.products{
+     background-color: #dddbda;
+}
+.product{
+     background-color: #ffffff;
+}
+.img{
+     width: 250px;
+}
+.product-info{
+     margin-bottom: 0;
+     font-size: 1.2rem;
+     font-weight: 500;
+     margin-left: 25px;
+}
+.input-field{
+     width: 60px;
+     font-weight: 500;
+}
+.price{
+     margin-bottom: 0;
+     font-size: 1.2rem;
+     font-weight: 500;
+     margin-left: 25px;
+}
